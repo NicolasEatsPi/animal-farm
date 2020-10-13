@@ -18,6 +18,8 @@ def make_animal(kind):
         return dog.Dog()
     if kind == 'sheep':
         return sheep.Sheep()
+    if kind == 'leopard':
+        returm leopard.Leopard()
     return animal.Animal(kind)
 
 def main(animals):
