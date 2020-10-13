@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Cat	cat.py	/^class Cat(animal.Animal):$/;"	c
+Dog	dog.py	/^class Dog(animal.Animal):$/;"	c
+Lion	lion.py	/^class Lion(animal.Animal):$/;"	c
+Sheep	sheep.py	/^class Sheep(animal.Animal):$/;"	c
+__init__	cat.py	/^    def __init__(self):$/;"	m	class:Cat
+__init__	dog.py	/^    def __init__(self):$/;"	m	class:Dog
+__init__	lion.py	/^    def __init__(self):$/;"	m	class:Lion
+__init__	sheep.py	/^    def __init__(self):$/;"	m	class:Sheep
+get_kind	cat.py	/^    def get_kind(self):$/;"	m	class:Cat
+get_kind	dog.py	/^    def get_kind(self):$/;"	m	class:Dog
+get_kind	lion.py	/^    def get_kind(self):$/;"	m	class:Lion
+get_kind	sheep.py	/^    def get_kind(self):$/;"	m	class:Sheep
