@@ -21,6 +21,8 @@ def make_animal(kind):
         return lion.Lion()
     if kind == 'sheep':
         return sheep.Sheep()
+    if kind == 'leopard':
+        returm leopard.Leopard()
     return animal.Animal(kind)
 
 def main(animals):
